@@ -1,0 +1,114 @@
+{
+    "meta": {
+        "title": "Happiness is...",
+        "description": "Happiness is... when the story begins!"
+    },
+    "story": [
+        {
+            "title": "'Facebook' story",
+            "icon": "Facebook2",
+            "lines": [
+                "When you accepted 'the mistaken' friend request",
+                "We talked about us until 5:00 am for two days in the row.",
+                "And we fell madly in love!"
+            ]
+        },
+        {
+            "title": "First Touch",
+            "icon": "Location",
+            "lines": [
+                "After a couple of days he decided to travel 7 hours from Bucharest to Alba Iulia",
+                "Because he couldn't wait more then 6 days to see me.",
+                "Was a big surprise for her to see him, because she didn't believe that he will come."
+            ]
+        },
+        {
+            "title": "Freedom Together",
+            "icon": "Unlocked",
+            "lines": [
+                "Madly in love but keep your eyes open, he may broke your heart, honey!",
+                "He was so sweet and caring and she forgot about thinking rational.",
+                "The lovebirds promised eachother that will fight together agains the world and the distance between them!"
+            ]
+        },
+        {
+            "title": "Time tests", 
+            "icon": "Hour-glass",
+            "lines": [
+                "When you miss your beloved, you feel that the real world doesn't exist anymore!",
+                "They were dreaming about the next time will feel eachothers arms.",
+                "The happiness both feel when they meet, see or receiving texts can't compare with nothing!"
+            ]
+        },
+        {
+            "title": "Love pass through stomach", 
+            "Pacman": "Pacman",
+            "lines": [
+                "Roses on the bed, candles and a table with delicious food made with love!",
+                "He was delighted about the food she was cooking for him, when he returned to see her!",
+                "Love born through eyes and gets bigger in bed...with roses!"
+            ]
+        },
+        {
+            "title": "London Life",
+            "icon": "Airplane",
+            "lines": [
+                "After a while, they decided that it's time to live together even than means different country.",
+                "London became their home, where the life and love can grow in peace.",
+                "In Romania, they left families that miss them, but sometimes you need to sacrifice something."
+            ]
+        },
+        {
+            "title": "Love means caring!",
+            "icon": "Aid-kit",
+            "lines": [
+                "In life not everything is pink, sometimes we receive also black!",
+                "Her heart broke in the moment he had an accident with his motocycle.",
+                "She was there everytime he needed her. Goo or bad, their love survives!"
+            ]
+        },
+        {
+            "title": "Sharing Passions",
+            "icon": "Embed2",
+            "lines": [
+                "When they decided it's time to change their life for better, Marian Zburlea came in their life.",
+                "Coding flows through their veins like the water in cascades!",
+            ]
+        },
+        {
+            "title": "What goes around, comes back around!",
+            "icon": "loop2",
+            "lines": [
+                "Being in love is not just a fire who burn everything around.",
+                "She grows and become mature, giving you a meaning!",
+            ]
+        },
+        {
+            "title": " True Love",
+            "icon": "Heart",
+            "lines": [
+                "aaa",
+                "bbb",
+                "ccc"
+            ]
+        },
+        {
+            "title": "Karma",
+            "inco": "Loop2",
+            "lines": [
+                "aaa",
+                "bbb",
+                "ccc"
+            ]
+        },
+        {
+            "title": "Until the end on time",
+            "icon": "Infinite",
+            "lines": [
+                "aaa",
+                "bbb",
+                "ccc"
+            ]
+        }
+    ]
+}
