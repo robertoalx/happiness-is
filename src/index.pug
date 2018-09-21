@@ -3,7 +3,14 @@ html(lang="en")
   head
     title=data.happinessis.meta.title
     meta(name="description" content=data.happinessis.meta.description)
+    -
+      const {title, description} =data.happinessis.meta
   body
+    .parallax
+      .parallax-layer.parallax-layer-back
+        h1=title
+      .parallax-layer.parallax-layer-base
+        h2=description
 
 if config.entry.css.external
   link(rel="stylesheet", href=`${baseUrl}/style.css`)
