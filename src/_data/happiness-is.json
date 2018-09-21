@@ -71,8 +71,8 @@
             "title": "Sharing Passions",
             "icon": "Embed2",
             "lines": [
-                "When they decided it's time to change their life for better, Marian Zburlea came in their life.",
-                "Coding flows through their veins like the water in cascades!",
+                "When they decided it's time to change their life for better, Marian came in their life.",
+                "Coding flows through their veins like the water in cascades!"
             ]
         },
         {
@@ -80,34 +80,35 @@
             "icon": "loop2",
             "lines": [
                 "Being in love is not just a fire who burn everything around.",
-                "She grows and become mature, giving you a meaning!",
+                "She grows and become mature, giving you a meaning!"
             ]
         },
         {
             "title": " True Love",
             "icon": "Heart",
             "lines": [
-                "aaa",
-                "bbb",
-                "ccc"
+                "Accepting someone no matter what happens and love them for how they are.",
+                "It's beautiful to stumble across someone, because the universe decided you had to be with.",
+                "Having that person who complete your propositions, feelings and even fears and demons."
             ]
         },
         {
-            "title": "Karma",
-            "inco": "Loop2",
+            "title": "Us",
+            "inco": "play",
             "lines": [
-                "aaa",
-                "bbb",
-                "ccc"
+                "Robert Alexandru, 28, born in Bucharest, RO living in UK. Loves coding and  Hates ...  ",
+                "Adela Sagau, 30, born in Alba Iulia, RO living in UK. Loves photography and coding. Hates hypocrites and indifference."
             ]
         },
         {
-            "title": "Until the end on time",
-            "icon": "Infinite",
+            "title": "About",
+            "icon": "html-five",
             "lines": [
-                "aaa",
-                "bbb",
-                "ccc"
+                "This website is built using",
+                "exclusively CSS3 and HTML5,",
+                "forget about JavaScript.",
+                "Author: Robert-Valentin Alexandru",
+                "<a href=https://robertoalx.github.io/my-cv/ target=_blank>Github project</a>"
             ]
         }
     ]
