@@ -2,11 +2,11 @@ doctype html
 html(lang="en")
   head
     -
-      const {title, description, youandme} =data.happinessis.meta
+      const {title, description, youandme}=data.happinessis.meta
     title=title
     meta(name="description" content=description)
   body
-    include _component/parallax/parallax
+    include _component/menu/menu
 
 if config.entry.css.external
   link(rel="stylesheet", href=`${baseUrl}/style.css`)
