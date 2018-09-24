@@ -1,4 +1,11 @@
 // @import '_component/config/color';
 // @import '_component/config/typography';
-// @import '_component/parallax/parallax';
+@import '_component/parallax/parallax';
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    
+}
 
