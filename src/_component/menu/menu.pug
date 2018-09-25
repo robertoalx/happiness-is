@@ -3,8 +3,7 @@
 
 .content
     each story in storyList
-        a(name="#{story.title}")
-        .card
+        .card(id="#{story.title}")
             h1 #{story.title}
             .card-body
                 each line in story.lines

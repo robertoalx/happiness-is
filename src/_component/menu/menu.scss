@@ -61,6 +61,6 @@
     }
 }
 
-a:target + .card {
+.card:target {
     background-color: $color-alto;
 }
