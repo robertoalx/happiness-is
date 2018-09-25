@@ -1,5 +1,6 @@
 @import '_component/config/color';
-// @import '_component/config/typography';
+@import '_component/config/font-family';
+@import '_component/config/typography';
 @import '_component/menu/menu';
 
 
@@ -9,7 +10,4 @@
     box-sizing: border-box;
 }
 
-body {
-    overflow: hidden
-}
 
