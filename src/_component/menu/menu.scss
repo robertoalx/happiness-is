@@ -1,0 +1,21 @@
+.menu-wrapper {
+    list-style-type: none;
+    position: fixed;
+    height: 100%;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.menu {
+    list-style-type: none;
+}
+
+.menu-li {
+    white-space: nowrap;
+    padding: 0.2rem 0.5rem;
+    margin: 0.1rem 0.2rem;
+    background-color: $color-guardsman-red;
+}

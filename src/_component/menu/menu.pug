@@ -1,10 +1,14 @@
 -
     const storyList =data.happinessis.story
 
-card
+.content
     each story in storyList
-        .card-group
+        .card
             h1=story.title
             .card-body
                 each line in story.lines
                     h2=line
+        .menu-wrapper
+            ul.menu
+                each story in storyList
+                    li.menu-li=story.title
