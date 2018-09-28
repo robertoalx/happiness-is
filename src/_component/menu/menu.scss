@@ -70,14 +70,3 @@
         right: 20px * $i;
     }
 }
-
-body {
-    font-family: 'Kalam', cursive;
-    // overflow: hidden;
-    background-color: $color-white;
-
-
-    background-image: linear-gradient(90deg, transparent 6rem, $color-jungle-mist 6rem, $color-jungle-mist 6.1rem, transparent 6.1),
-    linear-gradient($color-gallery .1em, transparent .1em);
-    background-size: 100% 2.5em;
-}
