@@ -15,5 +15,5 @@
         .menu-wrapper
             ul.menu
                 each story in storyList
-                    li.menu-item
+                    li(class="menu-item #{story.class}")
                         a.menu-link(href=slug(`#${story.title}`)) #{story.title}

@@ -103,6 +103,7 @@
         },
         {
             "title": "About",
+            "class": "menu-item-color",
             "icon": "html-five",
             "lines": [
                 "This website is built using",
