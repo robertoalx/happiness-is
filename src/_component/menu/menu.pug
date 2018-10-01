@@ -6,14 +6,20 @@
     const slug = bla => bla.toLowerCase().trim().replace(/\s+/g, '-')
 
 .content
-    each story in storyList
-        .card(id=slug(`${story.title}`))
-            h1 #{story.title}
-            .card-body
-                each line in story.lines
-                    h2 #{line}
-        .menu-wrapper
-            ul.menu
-                each story in storyList
-                    li(class="menu-item #{story.class}")
-                        a.menu-link(href=slug(`#${story.title}`)) #{story.title}
+    //- each story in storyList
+    .menu-wrapper
+        input#menu-back-button(type="checkbox")
+        .menu-background
+        .menu
+            - i = 0;
+            each story in storyList
+                .card(id=slug(`${story.title}`))
+                    h1 #{story.title}
+                    .card-body
+                        each line in story.lines
+                            h2 #{line}
+                input(type="radio" id="story-#{i}" name="storyList").menu-input
+                div(class="menu-item #{story.class}")
+                    label.menu-link(href=slug(`#${story.title}`) for="story-#{i}") #{story.title}
+                - i++;
+        label.menu-back-button(for="menu-back-button") Menu
