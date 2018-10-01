@@ -51,6 +51,10 @@
 
 #menu-back-button {
     display: none;
+
+    &:not(:checked) ~ .menu .menu-item {
+        transform: scaleX(0) scaleY(0);
+    }
 }
 
 .menu-background {
@@ -60,7 +64,7 @@
     position: fixed;
     top: 50vh;
     border-top-left-radius: 100%;
-    transition: 0.25s ease-out;
+    transition: 0.35s ease-out;
     opacity: 0;
     
     #menu-back-button:checked + & {
@@ -97,11 +101,18 @@
 .menu-link {
     text-decoration: none;
     color: $color-white;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .card {
     margin-left: 6rem;
     margin-bottom: 2.5rem;
+    position: fixed;
+    left: 100vh;
 }
 
 .card:target {
