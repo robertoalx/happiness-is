@@ -1,1 +1,13 @@
 $item-width : 30vw;
+$total-stories: 10;
+$total-pages: 12;
+
+%menu-item {
+    position: relative;
+    width: $item-width;
+    height: $item-width;
+    margin: 1.2vw;
+    background-color: $color-studio;
+    border-radius: 0.2rem;
+    transition: 0.75s;
+}

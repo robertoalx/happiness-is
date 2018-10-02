@@ -95,6 +95,7 @@
         },
         {
             "title": "Us",
+            "class": "menu-item-color",
             "icon": "play",
             "lines": [
                 "Robert Alexandru, 28, born in Bucharest, RO living in UK. Loves coding and  Hates ...  ",

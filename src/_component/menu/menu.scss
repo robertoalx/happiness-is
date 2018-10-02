@@ -21,6 +21,7 @@
     background-color: $color-studio;
     padding: 5vw;
     padding-right: 1vw;
+    transition: 0.25s;
     border-top-left-radius: 100%;
     z-index: 99999;
 }
@@ -55,6 +56,10 @@
     &:not(:checked) ~ .menu .menu-item {
         transform: scaleX(0) scaleY(0);
     }
+
+    &:checked ~ #menu-back-button {
+        bottom: -10vh;
+    }
 }
 
 .menu-background {
@@ -76,25 +81,27 @@
 }
 
 .menu-item {
-    position: relative;
-    width: $item-width;
-    height: $item-width;
-    justify-content: center;
-    align-items: center;
-    margin: 1.2vw;
-    display: flex;
-    background-color: $color-studio;
-    border-radius: 0.2rem;
-    transition: 0.75s;
+    @extend %menu-item;
+}
+
+.menu-item {
+    @extend %menu-item;
 
     &:hover {
     background-color: $color-guardsman-red;
+    }
+
+    @for $i from 1 through $total-pages {
+        &:nth-of-type(#{$i}) {
+            transition-delay: 1s * $i / 50;
+        }
     }
 }
 
 //This varition is only for "about" menu.
 .menu-item-color {
-    @extend .menu-item;
+    @extend %menu-item;
+
     background-color: $color-st-tropaz;
 }
 
@@ -105,7 +112,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .card {
@@ -119,8 +125,3 @@
     text-decoration: underline;;
 }
 
-@for $i from 1 through 10 {
-    .card:nth-of-type(#{$i}):target ~ .test {
-        right: 20px * $i;
-    }
-}
