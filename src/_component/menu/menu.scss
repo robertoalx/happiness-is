@@ -21,15 +21,27 @@
 
 .menu-back-button {
     position: fixed;
-    bottom: 0;
-    right: 0;
+    bottom: -0.1rem;
+    right: -0.1rem;
     color: $color-white;
     background-color: $color-studio;
-    padding: 5vw;
-    padding-right: 1vw;
+    min-width: 5rem;
+    min-height: 5rem;
+    // padding-right: 1vmin;
     transition: 0.25s;
     border-top-left-radius: 100%;
-    z-index: 99999;
+    border: 0.1rem solid $color-white;
+
+    &:after {
+        content: 'Menu';
+        position: absolute;
+        bottom: 1rem;
+        right: 1rem;
+    }
+}
+
+#menu-back-button:checked ~ .menu-back-button {
+    right: -100vmin;
 }
 
 .menu-wrapper {
