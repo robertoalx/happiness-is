@@ -1,12 +1,16 @@
 .menu {
-    list-style-type: none;
+    // list-style-type: none;
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: space-around;
+    height: 100%;
+    display: grid;
+    // flex-wrap: wrap;
+    // justify-content: center;
+    // align-items: space-around;
     padding: 0;
     margin: 0;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(4, minmax(20vw, 25vw));
+    grid-template-rows: repeat(3, minmax(28vh, 33vh));
 }
 
 .menu-input {
@@ -100,14 +104,14 @@
 
 .menu-item {
     position: relative;
-    width: $item-width;
-    height: $item-width;
-    margin: 1vw;
+    // width: $item-width;
+    // height: $item-width;
+    // margin: 1vw;
     background-color: $color-studio;
     border-radius: 0.2rem;
     transition: 0.75s;
 
-    @extend %menu-item;
+    // @extend %menu-item;
 
     &:hover {
     background-color: $color-guardsman-red;
@@ -122,7 +126,7 @@
 
 //This varition is only for "about" menu.
 .menu-item-color {
-    @extend %menu-item;
+    // @extend %menu-item;
 
     background-color: $color-st-tropaz;
 }
