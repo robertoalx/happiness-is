@@ -94,9 +94,7 @@
     background-color: $color-studio;
     border-radius: 0.2rem;
     transition: 0.75s;
-}
 
-.menu-item {
     @extend %menu-item;
 
     &:hover {
@@ -124,4 +122,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    font-size: 1rem;
 }
