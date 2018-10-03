@@ -3,7 +3,7 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     align-items: space-around;
     padding: 0;
     margin: 0;
@@ -11,6 +11,12 @@
 
 .menu-input {
     display: none;
+
+    @for $i from 1 through $total-pages {
+        &:nth-of-type(#{$i}):checked + .card {
+            left: 0;
+        }
+    }
 }
 
 .menu-back-button {
@@ -81,7 +87,13 @@
 }
 
 .menu-item {
-    @extend %menu-item;
+    position: relative;
+    width: $item-width;
+    height: $item-width;
+    margin: 1vw;
+    background-color: $color-studio;
+    border-radius: 0.2rem;
+    transition: 0.75s;
 }
 
 .menu-item {
@@ -93,7 +105,7 @@
 
     @for $i from 1 through $total-pages {
         &:nth-of-type(#{$i}) {
-            transition-delay: 1s * $i / 50;
+            transition-delay: 0.025s * $i;
         }
     }
 }
