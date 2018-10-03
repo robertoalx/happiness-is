@@ -28,6 +28,7 @@
                             h2 #{line}
                 
                 section(class=`menu-item ${className}`)
-                    label.menu-link(href=slug(`#${story.title}`) for=`story-${i}`) #{story.title}
+                    label.menu-link(href=slug(`#${story.title}`) for=`story-${i}`)
+                    //- label.menu-link(href=slug(`#${story.title}`) for=`story-${i}`) #{story.title}
                 - i++;
         label.menu-back-button(for="menu-back-button")
