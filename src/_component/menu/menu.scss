@@ -109,13 +109,20 @@
     // margin: 1vw;
 
     @extend %menu-item;
-
+    
     @for $i from 1 through $total-pages {
         &:nth-of-type(#{$i}) {
             transition-delay: 0.025s * $i;
         }
     }
+    &:before {
+        content: attr(bla);
+        position: absolute;
+        color:  white;
+        text-align: center;
+    }
 }
+
 
 //This varition is only for "about" menu.
 .menu-item-color {

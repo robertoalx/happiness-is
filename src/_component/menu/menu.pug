@@ -25,9 +25,12 @@
                     h1 #{story.title}
                     .card-body
                         each line in story.lines
-                            h2 #{line}
+                            h2 !{line}
                 
-                section(class=`menu-item ${className}`)
+                section(
+                    class=`menu-item ${story.title}`
+                    bla=story.title
+                )
                     label.menu-link(href=slug(`#${story.title}`) for=`story-${i}`)
                     //- label.menu-link(href=slug(`#${story.title}`) for=`story-${i}`) #{story.title}
                 - i++;
