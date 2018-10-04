@@ -118,7 +118,11 @@
     &:before {
         content: attr(bla);
         position: absolute;
-        color:  white;
+        color:  $color-white;
+        bottom: 0.1rem;;
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
         text-align: center;
     }
 }
