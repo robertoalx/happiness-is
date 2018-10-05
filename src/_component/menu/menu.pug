@@ -22,6 +22,7 @@
 
 
                 .card(id=slug(`${story.title}`))
+                    - var storyIcon = story.title.replace(/\s+/g, '-').toLowerCase();
                     h1 #{story.title}
                     .card-body
                         each line in story.lines

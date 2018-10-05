@@ -7,7 +7,7 @@
     "story": [
         {
             "title": "Facebook story",
-            "icon": "Facebook2",
+            "icon": "facebook2",
             "lines": [
                 "When you accepted 'the mistaken' friend request",
                 "We talked about us until 5:00 am for two days in the row.",
@@ -16,7 +16,7 @@
         },
         {
             "title": "First Touch",
-            "icon": "Location",
+            "icon": "location",
             "lines": [
                 "After a couple of days he decided to travel 7 hours from Bucharest to Alba Iulia",
                 "Because he couldn't wait more then 6 days to see me.",
@@ -25,7 +25,7 @@
         },
         {
             "title": "Freedom Together",
-            "icon": "Unlocked",
+            "icon": "unlocked",
             "lines": [
                 "Madly in love but keep your eyes open, he may broke your heart, honey!",
                 "He was so sweet and caring and she forgot about thinking rational.",
@@ -34,7 +34,7 @@
         },
         {
             "title": "Time tests", 
-            "icon": "Hour-glass",
+            "icon": "hour-glass",
             "lines": [
                 "When you miss your beloved, you feel that the real world doesn't exist anymore!",
                 "They were dreaming about the next time will feel eachothers arms.",
@@ -42,8 +42,8 @@
             ]
         },
         {
-            "title": "Love pass through stomach", 
-            "icon": "Pacman",
+            "title": "Love pass", 
+            "icon": "pacman",
             "lines": [
                 "Roses on the bed, candles and a table with delicious food made with love!",
                 "He was delighted about the food she was cooking for him, when he returned to see her!",
@@ -52,7 +52,7 @@
         },
         {
             "title": "London Life",
-            "icon": "Airplane",
+            "icon": "airplane",
             "lines": [
                 "After a while, they decided that it's time to live together even than means different country.",
                 "London became their home, where the life and love can grow in peace.",
@@ -61,7 +61,7 @@
         },
         {
             "title": "Love means caring!",
-            "icon": "Aid-kit",
+            "icon": "aid-kit",
             "lines": [
                 "In life not everything is pink, sometimes we receive also black!",
                 "Her heart broke in the moment he had an accident with his motocycle.",
@@ -70,14 +70,14 @@
         },
         {
             "title": "Sharing Passions",
-            "icon": "Embed2",
+            "icon": "embed2",
             "lines": [
                 "When they decided it's time to change their life for better, Marian came in their life.",
                 "Coding flows through their veins like the water in cascades!"
             ]
         },
         {
-            "title": "What goes around, comes back around!",
+            "title": "What goes around",
             "icon": "loop2",
             "lines": [
                 "Being in love is not just a fire who burn everything around.",
@@ -86,7 +86,7 @@
         },
         {
             "title": "True Love",
-            "icon": "Heart",
+            "icon": "heart",
             "lines": [
                 "Accepting someone no matter what happens and love them for how they are.",
                 "It's beautiful to stumble across someone, because the universe decided you had to be with.",
