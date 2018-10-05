@@ -127,13 +127,13 @@ $colourIndex: 1;
     justify-content: center;
     align-items: center;
     text-align: center;
+    border: 0.5vw solid $color-white;
     font-size: 10vw;
     width: 60%;
     padding-bottom: 60%;
     background-color: $color-studio;
-    border-radius: 50%;
+    border-radius: 100%;
     transition: 0.75s;
-    border: 0.1rem solid $color-white;
     position: relative;
 
     &:hover {
