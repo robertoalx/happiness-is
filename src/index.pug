@@ -11,5 +11,5 @@ html(lang="en")
   body
     include _component/menu/menu
 
-
-link(rel="stylesheet", href=`${baseUrl}/style.css`)
+if config.entry.css.external
+  link(rel="stylesheet", href=`${baseUrl}/style.css`)
