@@ -96,14 +96,14 @@
         content: attr(bla);
         position: absolute;
         color:  $color-white;
-        bottom: 0.1rem;;
+        top: 85%;
         text-align: center;
     }
 }
 
 $colourIndex: 1;
 @each $color, $value in $menu-colors {
-    section.menu-link:nth-of-type(12n + #{$colourIndex}) {
+    section:nth-of-type(12n + #{$colourIndex}) .menu-link {
         background-color: map-get($menu-colors, $color);
     }
     .card:nth-of-type(12n + #{$colourIndex}) {
@@ -134,9 +134,21 @@ $colourIndex: 1;
     border-radius: 50%;
     transition: 0.75s;
     border: 0.1rem solid $color-white;
+    position: relative;
 
     &:hover {
         background-color: $color-guardsman-red;
+    }
+
+    &:after {
+        position: absolute;
+        font-size: 6vmin;
+        display: flex;
+        top: 0;
+        bottom: 0;
+        align-items: center;
+        content: "\ea91";
+        @extend %super-happy;
     }
 }
 

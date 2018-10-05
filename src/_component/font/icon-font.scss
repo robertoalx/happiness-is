@@ -8,7 +8,7 @@
   font-style: normal;
 }
 
-[class^="happiness-is__icon--"], [class*=" happiness-is__icon--"] {
+%super-happy {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'happiness-is' !important;
   speak: none;
@@ -17,10 +17,14 @@
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-
+  
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="happiness-is__icon--"], [class*=" happiness-is__icon--"] {
+  @extend %super-happy;
 }
 
 .happiness-is__icon--play:before {
