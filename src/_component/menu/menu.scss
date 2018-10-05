@@ -55,21 +55,16 @@
     list-style-type: none;
     position: fixed;
     height: 100%;
+    width: 100%;
     top: 0;
     right: 0;
-    display: flex;
+    padding: 0;
+    margin: 0;
     flex-direction: column;
-    justify-content: space-around;
-    // pointer-events: none;
-    width: 100%;
-    height: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 0;
-    margin: 0;
-    // background-color: $color-cod-gray;
 }
 
 #menu-back-button {
@@ -104,15 +99,18 @@
 
 .menu-item {
     position: relative;
-    // width: $item-width;
-    // height: $item-width;
-    // margin: 1vw;
+    width: $item-width;
+    height: $item-width;
+    margin: 1vw;
+
 
     @extend %menu-item;
     
     @for $i from 1 through $total-pages {
         &:nth-of-type(#{$i}) {
             transition-delay: 0.025s * $i;
+            text-decoration: #{$i};
+            left: 0vh;
         }
     }
     &:before {
@@ -124,6 +122,13 @@
     }
 }
 
+$colourIndex: 1;
+@each $color, $value in $menu-colors {
+    section.menu-link:nth-of-type(12n + #{$colourIndex}) {
+        background-color: map-get($menu-colors, $color);
+    }
+    $colourIndex: $colourIndex + 1;
+}
 
 //This varition is only for "about" menu.
 .menu-item-color {
@@ -140,7 +145,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 1rem;
+    font-size: 12vw;
     width: 40%;
     padding-bottom: 40%;
     background-color: $color-studio;
