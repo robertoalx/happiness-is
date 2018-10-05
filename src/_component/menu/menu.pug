@@ -22,7 +22,7 @@
 
 
                 .card(id=slug(`${story.title}`))
-                    - var storyIcon = story.title.replace(/\s+/g, '-').toLowerCase();
+                    - var storyIcon = story.icon.replace(/\s+/g, '-').toLowerCase();
                     h1 #{story.title}
                     .card-body
                         each line in story.lines
@@ -32,7 +32,8 @@
                     class=`menu-item ${story.title}`
                     bla=story.title
                 )
-                    label.menu-link(href=slug(`#${story.title}`) for=`story-${i}`)
+                    label.menu-link(href=slug(`#${story.title}`) for=`story-${i}` class=`menu-link happiness-is__icon--${storyIcon}`)
                     //- label.menu-link(href=slug(`#${story.title}`) for=`story-${i}`) #{story.title}
                 - i++;
-        label.menu-back-button(for="menu-back-button")
+        label.menu-back-button.happiness-is__icon--menu3(for="menu-back-button")
+            span.menu-label-content Menu

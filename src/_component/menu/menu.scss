@@ -26,27 +26,6 @@
     }
 }
 
-.menu-back-button {
-    position: fixed;
-    bottom: -0.1rem;
-    right: -0.1rem;
-    color: $color-white;
-    background-color: $color-studio;
-    min-width: 5rem;
-    min-height: 5rem;
-    // padding-right: 1vmin;
-    transition: 0.25s;
-    border-top-left-radius: 100%;
-    border: 0.1rem solid $color-white;
-
-    &:after {
-        content: 'Menu';
-        position: absolute;
-        bottom: 1rem;
-        right: 1rem;
-    }
-}
-
 #menu-back-button:checked ~ .menu-back-button {
     right: -100vmin;
 }
@@ -127,6 +106,9 @@ $colourIndex: 1;
     section.menu-link:nth-of-type(12n + #{$colourIndex}) {
         background-color: map-get($menu-colors, $color);
     }
+    .card:nth-of-type(12n + #{$colourIndex}) {
+        background-color: map-get($menu-colors, $color)
+    }
     $colourIndex: $colourIndex + 1;
 }
 
@@ -145,9 +127,9 @@ $colourIndex: 1;
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 12vw;
-    width: 40%;
-    padding-bottom: 40%;
+    font-size: 10vw;
+    width: 60%;
+    padding-bottom: 60%;
     background-color: $color-studio;
     border-radius: 50%;
     transition: 0.75s;
@@ -157,3 +139,36 @@ $colourIndex: 1;
         background-color: $color-guardsman-red;
     }
 }
+
+.menu-back-button {
+    position: fixed;
+    width: 20vw;
+    height: 20vw;
+    right: 5vw;
+    bottom: 8vw;
+    color: $color-white;
+    background-color: $color-studio;
+    transition: 0.25s;
+    border-radius: 100%;
+    border: 1vw solid $color-white;
+    font-size: 10vw;
+    width: 30vw;
+    height: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // min-width: 5rem;
+    // min-height: 5rem;
+    transition: 0.25s;
+}
+
+.menu-label-content {
+    font-size: 4vw;
+    display: inline-block;
+    width: 30vw;
+    position: absolute;
+    text-align: center;
+    bottom: -6vw;
+    font-family: 'Open Sans', sans-serif;
+}
+
